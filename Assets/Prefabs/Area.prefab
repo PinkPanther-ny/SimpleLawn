@@ -1056,7 +1056,7 @@ MonoBehaviour:
   painter: {fileID: 3935976505400133180}
   cutRadius: 0.8
   remainLength: 0.08
-  endAtPercentage: 0.94
+  endAtPercentage: 0.92
   cumsumReward: 0
 --- !u!114 &3935976505914686684
 MonoBehaviour:
@@ -1080,7 +1080,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: f7bf04f761d207b47861336caeaacd60, type: 3}
   m_InferenceDevice: 1
   m_BehaviorType: 0
   m_BehaviorName: LawnMower
