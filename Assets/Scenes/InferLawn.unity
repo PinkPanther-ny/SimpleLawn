@@ -8689,7 +8689,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 78875e2f0dd1d314cbee82fef78e4ba1, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 596c1d2b50ad6084ab763ec4df629e2f, type: 3}
   m_InferenceDevice: 1
   m_BehaviorType: 0
   m_BehaviorName: LawnMower

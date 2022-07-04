@@ -494,8 +494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b2ce4b4cf799084abf63cbc92b2d3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentRunSpeed: 0.25
-  agentRotationSpeed: 0.45
+  agentRunSpeed: 0.3
+  agentRotationSpeed: 0.3
   spawnAreaMarginMultiplier: 0.5
   goalScoredMaterial: {fileID: 0}
   failMaterial: {fileID: 0}
