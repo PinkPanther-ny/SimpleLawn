@@ -26,8 +26,8 @@ Shader "Custom/Grass Geometry Shader 3" {
 #pragma multi_compile _SHADOWS_SCREEN
 #pragma multi_compile_fwdbase_fullforwardshadows
 #pragma multi_compile_fog
-#define GrassSegments 5 // segments per blade
-#define GrassBlades 4 // blades per vertex
+#define GrassSegments 3 // segments per blade
+#define GrassBlades 3 // blades per vertex
 
 		struct v2g
 	{
