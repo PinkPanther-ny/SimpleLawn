@@ -23,15 +23,4 @@ public class LawnMowerSettings : MonoBehaviour
     /// </summary>
     public float spawnAreaMarginMultiplier;
 
-    /// <summary>
-    /// When a goal is scored the ground will switch to this
-    /// material for a few seconds.
-    /// </summary>
-    public Material goalScoredMaterial;
-
-    /// <summary>
-    /// When an agent fails, the ground will turn this material for a few seconds.
-    /// </summary>
-    public Material failMaterial;
-
 }

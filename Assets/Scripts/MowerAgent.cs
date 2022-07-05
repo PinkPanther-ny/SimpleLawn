@@ -128,8 +128,9 @@ public class MowerAgent : Agent
 
     public Vector3 GetRandomSpawnPos()
     {
-        var foundNewSpawnLocation = false;
-        Vector3 randomSpawnPos = new Vector3(0, transform.position.y, 0);
+        float mul = m_LawnMowerSettings.spawnAreaMarginMultiplier;
+        float areaWidth = 5f;
+        Vector3 randomSpawnPos = new Vector3(Random.Range(-areaWidth * mul, areaWidth * mul), transform.position.y, Random.Range(-areaWidth * mul, areaWidth * mul));
         return randomSpawnPos;
         
     }
@@ -142,7 +143,7 @@ public class MowerAgent : Agent
         m_AgentRb.velocity = Vector3.zero;
         m_AgentRb.angularVelocity = Vector3.zero;
         ResetGrass();
-        // transform.position = GetRandomSpawnPos();
+        transform.localPosition = GetRandomSpawnPos();
         // Debug.Log(c);
         cumsumReward = 0f;
         currentEpisode++;
