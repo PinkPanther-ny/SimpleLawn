@@ -1,23 +1,22 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TextGetPercentage : MonoBehaviour
 {
     public GameObject agent;
+    private MowerAgent _mowerAgent;
 
-    private Text timerText;
+    private Text _timerText;
 
     private void Start()
     {
-        timerText = gameObject.GetComponent<Text>();
+        _timerText = gameObject.GetComponent<Text>();
+        _mowerAgent = agent.GetComponent<MowerAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        timerText.text = (int)(agent.GetComponent<MowerAgent>().cumsumReward * 100f) + "% completed";
+        _timerText.text = "Round: " + _mowerAgent.currentEpisode + " | " + (int)(_mowerAgent.cumsumReward * 100f) + "% completed";
     }
 }

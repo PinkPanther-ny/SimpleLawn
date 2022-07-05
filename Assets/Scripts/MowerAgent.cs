@@ -8,6 +8,7 @@ using UnityEngine.PlayerLoop;
 public class MowerAgent : Agent
 {
     // public int c = 0;
+    public int currentEpisode = 0;
     public GameObject painter;
     public float cutRadius = 0.68f;
     public float remainLength = 0.3f;
@@ -144,6 +145,7 @@ public class MowerAgent : Agent
         // transform.position = GetRandomSpawnPos();
         // Debug.Log(c);
         cumsumReward = 0f;
+        currentEpisode++;
     }
 
     public void ResetGrass()
