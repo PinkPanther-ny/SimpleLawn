@@ -1206,10 +1206,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area
       objectReference: {fileID: 0}
-    - target: {fileID: 3935976505356694364, guid: 6cebc3ddadcbd3848aca793bfd69966c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3935976505356694365, guid: 6cebc3ddadcbd3848aca793bfd69966c, type: 3}
       propertyPath: m_RootOrder
       value: 3
